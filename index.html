@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="noir">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Croma — Specialty Coffee Roasters | Brasília</title>
+    <meta
+      name="description"
+      content="Cafeteria de cafés especiais com microtorrefação própria (86+ SCA), brunch autoral de fermentação natural e pâtisserie artesanal. Veja o cardápio digital, endereço, Instagram e reserve pelo WhatsApp."
+    />
+    <meta name="theme-color" content="#0b0908" />
+
+    <!-- Open Graph / WhatsApp Preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Croma — Specialty Coffee Roasters" />
+    <meta
+      property="og:description"
+      content="Cafés especiais 86+ SCA, brunch autoral e confeitaria laminada diariamente. Confira o cardápio digital, endereço no Google Maps e fale direto no WhatsApp."
+    />
+    <meta property="og:image" content="images/hero.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+    <!-- Pré-carregamento das fontes variáveis locais -->
+    <link
+      rel="preload"
+      href="fonts/cormorant-garamond-latin-wght-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/manrope-latin-wght-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- Folhas de estilo separadas -->
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Scripts separados (100% front-end puro, compatível com file:// e servidores web) -->
+    <script src="js/config.js" defer></script>
+    <script src="js/main.js" defer></script>
+
+    <!-- Dados Estruturados SEO Local (Schema.org CafeOrCoffeeShop) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "Croma Specialty Coffee Roasters",
+        "ServesCuisine": ["Specialty Coffee", "Brunch", "Pâtisserie"],
+        "priceRange": "$$",
+        "telephone": "+55-61-99999-9999",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "SHCS CLS 405, Bloco C, Loja 38",
+          "addressLocality": "Brasília",
+          "addressRegion": "DF",
+          "postalCode": "70239-030",
+          "addressCountry": "BR"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+    <!-- ====================================================================
+         BARRA SUPERIOR · Status Ao Vivo + Endereço + Instagram + WhatsApp
+         ==================================================================== -->
+    <div class="topbar" role="region" aria-label="Informações rápidas e canais diretos">
+      <div class="container topbar-inner">
+        <div class="status-pill">
+          <span class="status-dot is-open" data-status-dot aria-hidden="true"></span>
+          <span data-live-status>Aberto agora · Terça a Domingo</span>
+        </div>
+
+        <div class="topbar-links">
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=CLS+405+Bloco+C+Brasilia+DF"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-maps-link
+            title="Abrir localização no Google Maps"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span data-brand-address-short>SHCS CLS 405, Bloco C, Loja 38 · Asa Sul, Brasília</span>
+          </a>
+
+          <a
+            href="https://instagram.com/croma.cafe"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-insta-link
+            title="Visitar nosso Instagram"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            <span data-insta-handle>@croma.cafe</span>
+          </a>
+
+          <a
+            href="https://wa.me/5561999999999"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-whatsapp-link
+            data-whatsapp-msg="Olá, equipe da {cafe}! Vi o site e gostaria de falar com o atendimento."
+            title="Falar direto pelo WhatsApp"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            <span data-phone-display>(61) 99999-9999</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         CABEÇALHO FIXO
+         ==================================================================== -->
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a href="#topo" class="brand-mark" aria-label="Início">
+          <span class="brand-name"><span data-brand-name>Croma</span><span class="brand-dot">.</span></span>
+          <span class="brand-descriptor" data-brand-descriptor>Specialty Coffee Roasters</span>
+        </a>
+
+        <nav class="primary-nav" aria-label="Navegação principal">
+          <a href="#origem" class="nav-link">A Casa</a>
+          <a href="#cardapio" class="nav-link">Cardápio</a>
+          <a href="#ritual" class="nav-link">O Ritual</a>
+          <a href="#atmosfera" class="nav-link">Instagram</a>
+          <a href="#reservas" class="nav-link">Reservas</a>
+          <a href="#endereco" class="nav-link">Endereço</a>
+        </nav>
+
+        <div class="header-actions">
+          <a
+            href="https://instagram.com/croma.cafe"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline btn-sm"
+            data-insta-link
+          >
+            Instagram
+          </a>
+          <a href="#reservas" class="btn btn-primary btn-sm">Reservar Mesa</a>
+        </div>
+
+        <button
+          type="button"
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-expanded="false"
+          aria-controls="mobile-drawer"
+        >
+          Menu
+        </button>
+      </div>
+    </header>
+
+    <!-- ====================================================================
+         MENU MOBILE (DRAWER)
+         ==================================================================== -->
+    <aside class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+      <div class="mobile-drawer-panel">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span class="brand-name" style="font-size: 1.4rem;">
+              <span data-brand-name>Croma</span><span class="brand-dot">.</span>
+            </span>
+            <button type="button" class="chip-btn" id="drawer-close" aria-label="Fechar menu">
+              Fechar ✕
+            </button>
+          </div>
+
+          <nav class="mobile-drawer-links" aria-label="Menu móvel">
+            <a href="#origem">A Casa & Torrefação</a>
+            <a href="#cardapio">Cardápio Digital</a>
+            <a href="#ritual">O Ritual em 3 Atos</a>
+            <a href="#atmosfera">Galeria & Instagram</a>
+            <a href="#reservas">Reservar pelo WhatsApp</a>
+            <a href="#endereco">Endereço & Como Chegar</a>
+          </nav>
+        </div>
+
+        <div class="mobile-drawer-ctas">
+          <a
+            href="https://wa.me/5561999999999"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+            data-whatsapp-link
+            data-whatsapp-msg="Olá, equipe da {cafe}! Vi o site e gostaria de atendimento."
+          >
+            Chamar no WhatsApp
+          </a>
+          <a
+            href="https://instagram.com/croma.cafe"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+            data-insta-link
+          >
+            Ver Instagram <span data-insta-handle>@croma.cafe</span>
+          </a>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=CLS+405+Bloco+C+Brasilia+DF"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+            data-maps-link
+          >
+            Abrir Rota no Google Maps
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <main id="conteudo-principal">
+      <!-- ==================================================================
+           HERO SECTION
+           ================================================================== -->
+      <section class="hero" id="topo">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="images/hero.jpg"
+            alt="Xícara de café especial com latte art servida em bancada de pedra escura"
+            width="1600"
+            height="1000"
+            fetchpriority="high"
+          />
+        </div>
+
+        <div class="container">
+          <div class="hero-content">
+            <span class="eyebrow" id="hero-eyebrow">Specialty Coffee · Torrefação & Cozinha</span>
+            <h1 class="hero-title">
+              <span id="hero-title-line1">O ritual do café,</span>
+              <em id="hero-title-line2">elevado à arte.</em>
+            </h1>
+            <p class="hero-lead" id="hero-lead">
+              Microlotes de pontuação 86+ na escala SCA, brunch autoral de fermentação natural e
+              confeitaria laminada diariamente no coração de <span data-brand-city>Brasília</span>.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#cardapio" class="btn btn-primary">Explorar Cardápio Digital</a>
+              <a
+                href="https://wa.me/5561999999999"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline"
+                data-whatsapp-link
+                data-whatsapp-msg="Olá, equipe da {cafe}! Gostaria de fazer uma reserva ou pedido pelo WhatsApp."
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                </svg>
+                Atendimento no WhatsApp
+              </a>
+              <a href="#endereco" class="btn btn-outline">Endereço & Como Chegar</a>
+            </div>
+          </div>
+
+          <div class="hero-ribbon" aria-label="Destaques e atalhos diretos">
+            <a href="#cardapio" class="hero-ribbon-item">
+              <strong>Cardápio Interativo</strong>
+              <span>Escolha seus itens e peça no WhatsApp</span>
+            </a>
+            <a href="#reservas" class="hero-ribbon-item">
+              <strong>Reserva de Mesas</strong>
+              <span>Salão, Jardim, Bancada & Eventos</span>
+            </a>
+            <a
+              href="https://instagram.com/croma.cafe"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hero-ribbon-item"
+              data-insta-link
+            >
+              <strong data-insta-handle>@croma.cafe</strong>
+              <span>Acompanhe as fornadas no Instagram</span>
+            </a>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=CLS+405+Bloco+C+Brasilia+DF"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hero-ribbon-item"
+              data-maps-link
+            >
+              <strong data-brand-city>Brasília</strong>
+              <span data-brand-address-short>SHCS CLS 405, Bloco C, Loja 38</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           FAIXA EDITORIAL (MARQUEE)
+           ================================================================== -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span class="marquee-item">Microlotes 86+ SCA</span>
+          <span class="marquee-item">Torra Semanal em Loring S15</span>
+          <span class="marquee-item">Extração em Hario V60, Origami & Chemex</span>
+          <span class="marquee-item">Viennoiserie de Manteiga Francesa 72h</span>
+          <span class="marquee-item">Brunch de Fermentação Natural</span>
+          <span class="marquee-item">Comércio Direto com Produtores Brasileiros</span>
+          <span class="marquee-item">Microlotes 86+ SCA</span>
+          <span class="marquee-item">Torra Semanal em Loring S15</span>
+          <span class="marquee-item">Extração em Hario V60, Origami & Chemex</span>
+          <span class="marquee-item">Viennoiserie de Manteiga Francesa 72h</span>
+          <span class="marquee-item">Brunch de Fermentação Natural</span>
+          <span class="marquee-item">Comércio Direto com Produtores Brasileiros</span>
+        </div>
+      </div>
+
+      <!-- ==================================================================
+           MANIFESTO · A CASA & FILOSOFIA
+           ================================================================== -->
+      <section class="section" id="origem">
+        <div class="container manifesto-grid">
+          <div class="manifesto-copy reveal">
+            <span class="eyebrow">Nossa Essência</span>
+            <h2 class="section-title">
+              Da fazenda de altitude à xícara calibrada ao segundo.
+            </h2>
+            <p>
+              Na <strong data-brand-name>Croma</strong>, acreditamos que uma grande cafeteria é o
+              encontro entre precisão técnica e hospitalidade calorosa. Visitamos pessoalmente
+              pequenos produtores na Mantiqueira de Minas, Chapada Diamantina e Caparaó para
+              selecionar lotes únicos de colheita seletiva.
+            </p>
+            <p>
+              Cada perfil de torra é desenhado na casa para respeitar o terroir de origem, enquanto
+              nossa confeitaria lamina croissants em ciclos de 72 horas e nossa cozinha prepara um
+              brunch autoral que convida a desacelerar em <span data-brand-city>Brasília</span>.
+            </p>
+
+            <div class="stats-row">
+              <div>
+                <div class="stat-value">86+</div>
+                <div class="stat-label">Pontuação mínima SCA</div>
+              </div>
+              <div>
+                <div class="stat-value">72h</div>
+                <div class="stat-label">Fermentação & laminação</div>
+              </div>
+              <div>
+                <div class="stat-value">100%</div>
+                <div class="stat-label">Rastreabilidade na origem</div>
+              </div>
+            </div>
+          </div>
+
+          <figure class="manifesto-figure reveal">
+            <img
+              src="images/origem.jpg"
+              alt="Grãos de café especial recém-colhidos e selecionados manualmente"
+              width="900"
+              height="1200"
+              loading="lazy"
+            />
+            <figcaption class="manifesto-badge">
+              <strong>Torra Fresca da Semana</strong>
+              <span>Grãos disponíveis na loja física ou sob encomenda via WhatsApp.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           CARDÁPIO DIGITAL INTERATIVO (4 Modelos + Abas + Seleção p/ WhatsApp)
+           ================================================================== -->
+      <section class="section section-elevated" id="cardapio">
+        <div class="container">
+          <header class="section-header-center reveal">
+            <span class="eyebrow">Cardápio Digital & Encomendas</span>
+            <h2 class="section-title">Escolha sua experiência à mesa</h2>
+            <p class="section-lead">
+              Alterne entre os perfis de cardápio abaixo, filtre por categoria e clique em
+              <strong>+ Escolher no Cardápio</strong> para montar seu pedido ou anexá-lo à sua
+              reserva pelo WhatsApp.
+            </p>
+          </header>
+
+          <!-- Seletor de Modelos de Cafeteria (Ideal para demonstrar o site para diferentes cafeterias) -->
+          <div
+            class="menu-concept-bar reveal"
+            role="group"
+            aria-label="Selecionar modelo de cardápio da cafeteria"
+          >
+            <button
+              type="button"
+              class="concept-card is-active"
+              data-concept-select="completo"
+              aria-pressed="true"
+            >
+              <span class="concept-card-tag">Cardápio 01 · Completo</span>
+              <span class="concept-card-title">Casa Completa (24 itens)</span>
+              <span class="concept-card-sub">Cafés Especiais, Brunch & Pâtisserie</span>
+            </button>
+
+            <button
+              type="button"
+              class="concept-card"
+              data-concept-select="torrefacao"
+              aria-pressed="false"
+            >
+              <span class="concept-card-tag">Cardápio 02 · Coffee Roasters</span>
+              <span class="concept-card-title">Torrefação & Filtrados</span>
+              <span class="concept-card-sub">Foco em microlotes V60, espresso e folhados</span>
+            </button>
+
+            <button
+              type="button"
+              class="concept-card"
+              data-concept-select="brunch"
+              aria-pressed="false"
+            >
+              <span class="concept-card-tag">Cardápio 03 · All-Day Brunch</span>
+              <span class="concept-card-title">Café & Cozinha Matinal</span>
+              <span class="concept-card-sub">Foco em Eggs Benedict, toasts e cafés</span>
+            </button>
+
+            <button
+              type="button"
+              class="concept-card"
+              data-concept-select="patisserie"
+              aria-pressed="false"
+            >
+              <span class="concept-card-tag">Cardápio 04 · Boutique</span>
+              <span class="concept-card-title">Pâtisserie & Viennoiserie</span>
+              <span class="concept-card-sub">Foco em tortas autorais, éclairs e croissants</span>
+            </button>
+          </div>
+
+          <!-- Abas de Categorias do Cardápio -->
+          <div
+            class="menu-tabs reveal"
+            id="menu-tabs"
+            role="tablist"
+            aria-label="Filtrar itens do cardápio por categoria"
+          >
+            <button
+              type="button"
+              class="menu-tab is-active"
+              role="tab"
+              aria-selected="true"
+              data-category-tab="all"
+            >
+              Todos (24)
+            </button>
+          </div>
+
+          <!-- Catálogo de Itens do Cardápio (Renderizado por js/main.js a partir de js/config.js) -->
+          <div id="menu-catalog" aria-live="polite">
+            <noscript>
+              <p style="text-align: center; color: var(--text-muted);">
+                Ative o JavaScript para filtrar o cardápio interativo ou chame diretamente em nosso
+                WhatsApp (61) 99999-9999 para receber o menu completo.
+              </p>
+            </noscript>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           O RITUAL EM 3 ATOS
+           ================================================================== -->
+      <section class="section" id="ritual">
+        <div class="container">
+          <header class="section-header-center reveal">
+            <span class="eyebrow">A Arte da Extração</span>
+            <h2 class="section-title">Três atos de precisão sensorial</h2>
+            <p class="section-lead">
+              Cada xícara servida na <span data-brand-name>Croma</span> respeita três etapas
+              inegociáveis: terroir rastreável, torra de precisão e extração sob medida.
+            </p>
+          </header>
+
+          <div class="ritual-grid">
+            <article class="ritual-card reveal">
+              <div class="ritual-media">
+                <img
+                  src="images/origem.jpg"
+                  alt="Colheita seletiva de frutos maduros de café arábica"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+                <span class="ritual-step-num">Ato I · Terroir</span>
+              </div>
+              <div class="ritual-body">
+                <h3>Colheita Seletiva & Origem</h3>
+                <p>
+                  Trabalhamos em comércio direto com famílias produtoras acima de 1.250 metros de
+                  altitude, garantindo grãos 100% arábica de secagem lenta em terreiro suspenso.
+                </p>
+              </div>
+            </article>
+
+            <article class="ritual-card reveal">
+              <div class="ritual-media">
+                <img
+                  src="images/torra.jpg"
+                  alt="Torrador artesanal de café com grãos recém-torrados"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+                <span class="ritual-step-num">Ato II · Alquimia</span>
+              </div>
+              <div class="ritual-body">
+                <h3>Curva de Torra Autoral</h3>
+                <p>
+                  Torramos pequenos lotes todas as terças-feiras com telemetria grau a grau para
+                  preservar notas florais, acidez brilhante e doçura natural sem amargor residual.
+                </p>
+              </div>
+            </article>
+
+            <article class="ritual-card reveal">
+              <div class="ritual-media">
+                <img
+                  src="images/ritual.jpg"
+                  alt="Barista realizando extração manual em método Hario V60"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+                <span class="ritual-step-num">Ato III · Extração</span>
+              </div>
+              <div class="ritual-body">
+                <h3>Água Remineralizada & Barismo</h3>
+                <p>
+                  Utilizamos água filtrada por osmose reversa e remineralizada sob receita própria,
+                  extraindo o melhor de cada grão na La Marzocco Linea PB ou no seu método filtrado
+                  favorito.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           ATMOSFERA, GALERIA & INSTAGRAM SHOWCASE
+           ================================================================== -->
+      <section class="section section-elevated" id="atmosfera">
+        <div class="container">
+          <div class="insta-banner reveal">
+            <div>
+              <span class="eyebrow">Siga o Cotidiano da Casa</span>
+              <a
+                href="https://instagram.com/croma.cafe"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="insta-handle"
+                data-insta-link
+                data-insta-handle
+              >
+                @croma.cafe
+              </a>
+              <p class="section-lead" style="margin-top: 0.35rem;">
+                Fornadas de croissants às 08h, novos microlotes da semana e bastidores da nossa
+                torrefação publicados diariamente no Instagram.
+              </p>
+            </div>
+
+            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+              <a
+                href="https://instagram.com/croma.cafe"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+                data-insta-link
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                Abrir Instagram Oficial
+              </a>
+            </div>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item reveal">
+              <img
+                src="images/galeria-interior.jpg"
+                alt="Salão arquitetônico da cafeteria com iluminação quente e mesas em madeira nobre"
+                width="1200"
+                height="825"
+                loading="lazy"
+              />
+              <figcaption class="gallery-caption">
+                <span>Salão Principal & Arquitetura Sensorial</span>
+                <span data-insta-handle>@croma.cafe</span>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal">
+              <img
+                src="images/galeria-espresso.jpg"
+                alt="Extração dupla de espresso em porta-filtro naked"
+                width="1000"
+                height="700"
+                loading="lazy"
+              />
+              <figcaption class="gallery-caption">
+                <span>Espresso Bar · La Marzocco</span>
+                <span>Blend Nº 01</span>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal">
+              <img
+                src="images/galeria-confeitaria.jpg"
+                alt="Croissants laminados e confeitaria artesanal recém-saídos do forno"
+                width="1000"
+                height="700"
+                loading="lazy"
+              />
+              <figcaption class="gallery-caption">
+                <span>Viennoiserie Laminada 72h</span>
+                <span>Manteiga Francesa</span>
+              </figcaption>
+            </figure>
+
+            <figure class="gallery-item reveal">
+              <img
+                src="images/galeria-graos.jpg"
+                alt="Mesa de cupping e degustação de microlotes de cafés especiais"
+                width="1200"
+                height="825"
+                loading="lazy"
+              />
+              <figcaption class="gallery-caption">
+                <span>Cupping & Curadoria de Microlotes</span>
+                <span>86+ Pontos SCA</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           CONCIERGE DE RESERVAS & ENCOMENDAS DIRETO NO WHATSAPP
+           ================================================================== -->
+      <section class="section" id="reservas">
+        <div class="container">
+          <div class="booking-shell reveal">
+            <aside class="booking-aside">
+              <div>
+                <span class="eyebrow">Concierge Digital</span>
+                <h2 class="section-title" style="font-size: clamp(1.85rem, 3vw, 2.6rem);">
+                  Reserve sua mesa ou adiante seu pedido.
+                </h2>
+                <p class="section-lead">
+                  Preencha os detalhes ao lado para enviar sua solicitação formatada diretamente ao
+                  WhatsApp da nossa equipe — sem filas e com confirmação rápida.
+                </p>
+
+                <ul class="experience-list">
+                  <li>
+                    <strong>Mesa no Salão ou Jardim Interno</strong>
+                    <span>Perfeito para brunch de fim de semana, encontros e reuniões.</span>
+                  </li>
+                  <li>
+                    <strong>Omakase de Filtrados no Balcão</strong>
+                    <span>Degustação guiada de 3 microlotes raros com nosso Head Barista.</span>
+                  </li>
+                  <li>
+                    <strong>Encomenda de Tortas, Grãos & Coffee Box</strong>
+                    <span>Retire na loja sem espera ou solicite entrega programada.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="direct-channels-list">
+                <span class="form-label">Prefere falar agora em 1 clique?</span>
+                <a
+                  href="https://wa.me/5561999999999"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm"
+                  data-whatsapp-link
+                  data-whatsapp-msg="Olá, equipe da {cafe}! Gostaria de tirar uma dúvida rápida pelo WhatsApp."
+                >
+                  Chamar no WhatsApp · <span data-phone-display>(61) 99999-9999</span>
+                </a>
+                <a
+                  href="https://instagram.com/croma.cafe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm"
+                  data-insta-link
+                >
+                  Mensagem via Instagram · <span data-insta-handle>@croma.cafe</span>
+                </a>
+              </div>
+            </aside>
+
+            <div class="booking-main">
+              <div class="booking-top">
+                <h3>Solicitação Instantânea via WhatsApp</h3>
+                <span style="font-size: 0.78rem; color: var(--text-muted);">
+                  Resposta média em poucos minutos
+                </span>
+              </div>
+
+              <form id="reservation-form">
+                <div class="form-grid">
+                  <div class="form-field">
+                    <label class="form-label" for="res-name">Seu Nome *</label>
+                    <input
+                      class="form-input"
+                      type="text"
+                      id="res-name"
+                      name="name"
+                      placeholder="Ex.: Mariana Vasconcelos"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label class="form-label" for="res-phone">Seu WhatsApp</label>
+                    <input
+                      class="form-input"
+                      type="tel"
+                      id="res-phone"
+                      name="phone"
+                      placeholder="(61) 99999-9999"
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label class="form-label" for="res-date">Data *</label>
+                    <input class="form-input" type="date" id="res-date" name="date" required />
+                  </div>
+
+                  <div class="form-field">
+                    <label class="form-label" for="res-time">Horário *</label>
+                    <select class="form-select" id="res-time" name="time" required>
+                      <option value="08:30">08:30 · Manhã</option>
+                      <option value="09:30">09:30 · Brunch</option>
+                      <option value="10:30" selected>10:30 · Brunch</option>
+                      <option value="12:00">12:00 · Almoço Leve</option>
+                      <option value="15:00">15:00 · Café da Tarde</option>
+                      <option value="16:30">16:30 · Fim de Tarde</option>
+                      <option value="18:00">18:00 · Noite</option>
+                    </select>
+                  </div>
+
+                  <div class="form-field">
+                    <label class="form-label" for="res-guests">Quantidade de Pessoas</label>
+                    <select class="form-select" id="res-guests" name="guests">
+                      <option value="1 pessoa">1 pessoa</option>
+                      <option value="2 pessoas" selected>2 pessoas</option>
+                      <option value="3 pessoas">3 pessoas</option>
+                      <option value="4 pessoas">4 pessoas</option>
+                      <option value="5 a 6 pessoas">5 a 6 pessoas</option>
+                      <option value="Grupo (7+ pessoas)">Grupo (7+ pessoas)</option>
+                    </select>
+                  </div>
+
+                  <div class="form-field">
+                    <label class="form-label" for="res-area">Ambiente Preferido</label>
+                    <select class="form-select" id="res-area" name="area">
+                      <option value="Salão Principal">Salão Principal</option>
+                      <option value="Jardim de Inverno (Pet Friendly)">
+                        Jardim de Inverno (Pet Friendly)
+                      </option>
+                      <option value="Balcão de Métodos (Brew Bar)">
+                        Balcão de Métodos (Brew Bar)
+                      </option>
+                      <option value="Mesa Compartilhada com Tomadas (Work)">
+                        Mesa com Tomadas (Work & Study)
+                      </option>
+                      <option value="Retirada no Balcão (Takeaway)">
+                        Apenas Retirada / Encomenda
+                      </option>
+                    </select>
+                  </div>
+
+                  <div class="form-field form-field-full">
+                    <label class="form-label" for="res-experience">Modalidade de Experiência</label>
+                    <select class="form-select" id="res-experience" name="experience">
+                      <option value="Mesa no Salão & Brunch">Mesa no Salão & Brunch</option>
+                      <option value="Degustação Guiada de Microlotes (Cupping)">
+                        Degustação Guiada de Microlotes (Cupping)
+                      </option>
+                      <option value="Aniversário / Comemoração Especial">
+                        Aniversário / Comemoração Especial
+                      </option>
+                      <option value="Encomenda de Confeitaria / Grãos Torrados">
+                        Encomenda de Confeitaria / Grãos Torrados
+                      </option>
+                    </select>
+                  </div>
+
+                  <!-- Resumo dinâmico caso o cliente tenha escolhido itens no Cardápio acima -->
+                  <div class="form-field form-field-full selected-menu-box" id="selected-menu-box" hidden>
+                    <div class="selected-menu-header">
+                      <span>✦ Itens do cardápio anexados à sua solicitação</span>
+                      <button type="button" class="chip-btn" data-clear-selection>
+                        Limpar seleção
+                      </button>
+                    </div>
+                    <p class="selected-menu-list" id="selected-menu-list"></p>
+                    <p style="margin: 0.35rem 0 0; font-size: 0.8rem; color: var(--accent);">
+                      Subtotal estimado: <strong id="selected-menu-total">R$ 0,00</strong>
+                    </p>
+                  </div>
+
+                  <div class="form-field form-field-full">
+                    <label class="form-label" for="res-notes">
+                      Observações, restrições alimentares ou pedido especial
+                    </label>
+                    <textarea
+                      class="form-textarea"
+                      id="res-notes"
+                      name="notes"
+                      rows="2"
+                      placeholder="Ex.: Mesa próxima à janela, opção com leite de aveia, vela de aniversário..."
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div
+                  style="
+                    margin-top: 1.4rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 1rem;
+                  "
+                >
+                  <button type="submit" class="btn btn-primary">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                    </svg>
+                    Enviar Reserva pelo WhatsApp
+                  </button>
+                  <span style="font-size: 0.76rem; color: var(--text-subtle);">
+                    Abre seu WhatsApp já com a mensagem pronta para enviar.
+                  </span>
+                </div>
+
+                <div
+                  class="selected-menu-box"
+                  id="booking-feedback"
+                  hidden
+                  style="margin-top: 1.25rem;"
+                >
+                  <p id="booking-feedback-text" style="margin: 0 0 0.65rem; font-size: 0.88rem;"></p>
+                  <button type="button" class="btn btn-outline btn-sm" id="download-ics-btn">
+                    Salvar Lembrete na Agenda (.ics)
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           ENDEREÇO, HORÁRIOS AO VIVO & MAPA INTERATIVO (COMO CHEGAR)
+           ================================================================== -->
+      <section class="section section-elevated" id="endereco">
+        <div class="container">
+          <header class="section-header-center reveal">
+            <span class="eyebrow">Visite Nossa Casa</span>
+            <h2 class="section-title">Endereço, horários e como chegar</h2>
+            <p class="section-lead">
+              Estacionamento arborizado em frente à loja, bicicletário próprio, Wi-Fi de alta
+              velocidade e varanda pet-friendly.
+            </p>
+          </header>
+
+          <div class="visit-grid">
+            <!-- Cartão de Endereço e Horários -->
+            <div class="visit-card reveal">
+              <div>
+                <div class="status-pill" style="margin-bottom: 0.75rem;">
+                  <span class="status-dot is-open" data-status-dot aria-hidden="true"></span>
+                  <span data-live-status>Aberto agora</span>
+                </div>
+
+                <h3
+                  style="
+                    font-family: var(--font-serif);
+                    font-size: 1.85rem;
+                    margin: 0 0 0.35rem;
+                  "
+                >
+                  <span data-brand-name>Croma</span> · <span data-brand-city>Brasília</span>
+                </h3>
+                <p
+                  style="margin: 0 0 1rem; color: var(--text-muted);"
+                  data-brand-address-full
+                >
+                  SHCS CLS 405, Bloco C, Loja 38 — Asa Sul, Brasília - DF, CEP 70239-030
+                </p>
+
+                <div style="display: flex; flex-wrap: wrap; gap: 0.55rem; margin-bottom: 1.5rem;">
+                  <button type="button" class="chip-btn" id="copy-address-btn">
+                    Copiar Endereço Completo
+                  </button>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=CLS+405+Bloco+C+Brasilia+DF"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="chip-btn"
+                    data-maps-link
+                  >
+                    Abrir no Google Maps ↗
+                  </a>
+                  <a
+                    href="https://waze.com/ul?q=CLS%20405%20Bloco%20C%20Brasilia"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="chip-btn"
+                    data-waze-link
+                  >
+                    Ir com Waze ↗
+                  </a>
+                </div>
+
+                <h4
+                  style="
+                    font-size: 0.74rem;
+                    letter-spacing: 0.18em;
+                    text-transform: uppercase;
+                    color: var(--accent);
+                    margin: 0 0 0.65rem;
+                  "
+                >
+                  Horário de Funcionamento
+                </h4>
+                <table class="hours-table" aria-label="Horário semanal de funcionamento">
+                  <tbody id="hours-tbody">
+                    <tr>
+                      <td>Terça a Quinta-feira</td>
+                      <td>08:00 às 19:00</td>
+                    </tr>
+                    <tr>
+                      <td>Sexta-feira</td>
+                      <td>08:00 às 21:00</td>
+                    </tr>
+                    <tr>
+                      <td>Sábado</td>
+                      <td>09:00 às 21:00</td>
+                    </tr>
+                    <tr>
+                      <td>Domingo</td>
+                      <td>09:00 às 18:00</td>
+                    </tr>
+                    <tr>
+                      <td>Segunda-feira</td>
+                      <td>Fechado (Torra Interna)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div
+                style="
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 0.65rem;
+                  padding-top: 1rem;
+                  border-top: 1px solid var(--border);
+                "
+              >
+                <a
+                  href="https://wa.me/5561999999999"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary btn-sm"
+                  data-whatsapp-link
+                  data-whatsapp-msg="Olá, equipe da {cafe}! Estou indo visitar a cafeteria e gostaria de confirmar uma informação."
+                >
+                  Falar no WhatsApp
+                </a>
+                <a
+                  href="https://instagram.com/croma.cafe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm"
+                  data-insta-link
+                >
+                  Instagram <span data-insta-handle>@croma.cafe</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Cartão de Mapa Interativo -->
+            <div class="map-card reveal">
+              <iframe
+                id="map-iframe"
+                class="map-frame"
+                title="Localização da cafeteria no Google Maps"
+                src="https://www.google.com/maps?q=CLS+405+Bloco+C+Brasilia+DF&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+
+              <div class="map-actions">
+                <div>
+                  <strong style="display: block; font-size: 0.88rem;" data-brand-address-short>
+                    SHCS CLS 405, Bloco C, Loja 38 · Asa Sul, Brasília
+                  </strong>
+                  <span style="font-size: 0.76rem; color: var(--text-muted);">
+                    Clique abaixo para iniciar a navegação por GPS no celular
+                  </span>
+                </div>
+
+                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=CLS+405+Bloco+C+Brasilia+DF"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary btn-sm"
+                    data-maps-link
+                  >
+                    Traçar Rota (Maps)
+                  </a>
+                  <a
+                    href="https://waze.com/ul?q=CLS%20405%20Bloco%20C%20Brasilia"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline btn-sm"
+                    data-waze-link
+                  >
+                    Waze
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           IMPRENSA & DEPOIMENTOS
+           ================================================================== -->
+      <section class="section" aria-label="Avaliações e crítica gastronômica">
+        <div class="container">
+          <header class="section-header-center reveal">
+            <span class="eyebrow">Reconhecimento</span>
+            <h2 class="section-title">O que dizem sobre a experiência</h2>
+          </header>
+
+          <div class="testimonials-grid">
+            <blockquote class="testimonial-card reveal">
+              <p class="testimonial-quote">
+                “O Hario V60 de Geisha Florada e o Kouign-Amann morno entregam um nível de
+                precisão técnica que coloca a casa entre as grandes microtorrefações do país.”
+              </p>
+              <footer class="testimonial-author">
+                <strong>Guia de Cafés Especiais</strong>
+                <span>Destaque · Melhor Carta de Filtrados</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card reveal">
+              <p class="testimonial-quote">
+                “Ambiente silencioso na medida certa, arquitetura acolhedora e o melhor Eggs
+                Benedict no brioche de fermentação lenta para começar o sábado sem pressa.”
+              </p>
+              <footer class="testimonial-author">
+                <strong>Helena Alencar</strong>
+                <span>Arquiteta & cliente assídua</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card reveal">
+              <p class="testimonial-quote">
+                “Escolhi os itens pelo cardápio do site e enviei a reserva direto no WhatsApp.
+                Quando chegamos, a mesa no jardim interno já nos aguardava impecável.”
+              </p>
+              <footer class="testimonial-author">
+                <strong>Gustavo M. Fontes</strong>
+                <span>Avaliação 5★ no Google Maps</span>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====================================================================
+         RODAPÉ
+         ==================================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="#topo" class="brand-mark" style="margin-bottom: 0.75rem;">
+              <span class="brand-name"><span data-brand-name>Croma</span><span class="brand-dot">.</span></span>
+              <span class="brand-descriptor" data-brand-descriptor>Specialty Coffee Roasters</span>
+            </a>
+            <p style="max-width: 44ch; margin: 0 0 1rem;">
+              Microtorrefação artesanal de cafés 86+ SCA, brunch autoral e confeitaria franco-brasileira
+              em <span data-brand-city>Brasília</span>.
+            </p>
+            <p style="margin: 0; font-size: 0.8rem;" data-brand-address-full>
+              SHCS CLS 405, Bloco C, Loja 38 — Asa Sul, Brasília - DF, CEP 70239-030
+            </p>
+          </div>
+
+          <div>
+            <h3 class="footer-heading">Navegação</h3>
+            <ul class="footer-links">
+              <li><a href="#origem">A Casa & Torrefação</a></li>
+              <li><a href="#cardapio">Cardápio Digital Interativo</a></li>
+              <li><a href="#ritual">O Ritual em 3 Atos</a></li>
+              <li><a href="#atmosfera">Galeria & Instagram</a></li>
+              <li><a href="#reservas">Reservar pelo WhatsApp</a></li>
+              <li><a href="#endereco">Endereço & Como Chegar</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer-heading">Canais Diretos</h3>
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="https://wa.me/5561999999999"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-whatsapp-link
+                >
+                  WhatsApp · <span data-phone-display>(61) 99999-9999</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/croma.cafe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-insta-link
+                >
+                  Instagram · <span data-insta-handle>@croma.cafe</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=CLS+405+Bloco+C+Brasilia+DF"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-maps-link
+                >
+                  Google Maps · Traçar Rota
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://waze.com/ul?q=CLS%20405%20Bloco%20C%20Brasilia"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-waze-link
+                >
+                  Waze · Abrir Navegação
+                </a>
+              </li>
+              <li>
+                <a href="mailto:contato@croma.cafe" data-email-link data-email-text>
+                  contato@croma.cafe
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>
+            © <span id="current-year">2026</span> <span data-brand-name>Croma</span> — Todos os
+            direitos reservados.
+          </span>
+          <span>Cafés Especiais · Torra Fresca · Hospitalidade Autoral</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ====================================================================
+         BANDEJA FLUTUANTE DE ITENS ESCOLHIDOS NO CARDÁPIO
+         ==================================================================== -->
+    <div
+      class="selection-tray"
+      id="selection-tray"
+      role="region"
+      aria-label="Resumo dos itens escolhidos no cardápio"
+      hidden
+    >
+      <div class="selection-tray-info">
+        <strong id="selection-tray-title">1 item escolhido · R$ 26,00</strong>
+        <span id="selection-tray-sub">1x Espresso Tonic Imperial</span>
+      </div>
+
+      <div class="selection-tray-actions">
+        <a
+          href="https://wa.me/5561999999999"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary btn-sm"
+          id="selection-tray-whatsapp"
+        >
+          Pedir no WhatsApp
+        </a>
+        <a href="#reservas" class="btn btn-outline btn-sm">Incluir na Reserva</a>
+        <button type="button" class="chip-btn" data-clear-selection aria-label="Limpar seleção">
+          Limpar
+        </button>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         BOTÃO FLUTUANTE DO WHATSAPP (CONVERSÃO DIRETA)
+         ==================================================================== -->
+    <a
+      href="https://wa.me/5561999999999"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-fab"
+      data-whatsapp-link
+      data-whatsapp-msg="Olá, equipe da {cafe}! Vi o site e gostaria de atendimento."
+      aria-label="Falar agora pelo WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+      </svg>
+      <span>WhatsApp</span>
+    </a>
+
+    <!-- ====================================================================
+         ESTÚDIO DE DEMONSTRAÇÃO COMERCIAL (WHITE-LABEL P/ VENDER A CAFETERIAS)
+         ==================================================================== -->
+    <aside class="demo-studio" id="demo-studio" aria-label="Personalizador de demonstração comercial">
+      <div class="demo-panel" id="demo-panel" hidden>
+        <div class="demo-panel-header">
+          <h3 class="demo-panel-title">✦ Estúdio Comercial (Demo)</h3>
+          <button type="button" class="chip-btn" id="demo-close-btn" aria-label="Fechar painel">
+            ✕
+          </button>
+        </div>
+
+        <p style="margin: 0; font-size: 0.75rem; color: var(--text-muted);">
+          Personalize o site ao vivo com os dados da cafeteria cliente antes de apresentar ou enviar
+          o link no WhatsApp:
+        </p>
+
+        <span class="demo-section-label">Dados da Cafeteria Cliente</span>
+        <div class="demo-input-row">
+          <input
+            type="text"
+            class="demo-input"
+            id="demo-name"
+            placeholder="Nome da Cafeteria"
+            aria-label="Nome da Cafeteria"
+          />
+          <input
+            type="text"
+            class="demo-input"
+            id="demo-city"
+            placeholder="Cidade"
+            aria-label="Cidade da Cafeteria"
+          />
+        </div>
+        <div style="margin-top: 0.45rem;">
+          <input
+            type="text"
+            class="demo-input"
+            id="demo-insta"
+            placeholder="@instagram.da.cafeteria"
+            aria-label="Instagram da Cafeteria"
+          />
+        </div>
+
+        <span class="demo-section-label">Modelo de Cardápio</span>
+        <div class="demo-chip-row" style="grid-template-columns: repeat(2, 1fr);">
+          <button type="button" class="demo-chip is-active" data-demo-concept="completo">
+            Completo
+          </button>
+          <button type="button" class="demo-chip" data-demo-concept="torrefacao">
+            Torrefação
+          </button>
+          <button type="button" class="demo-chip" data-demo-concept="brunch">
+            Café & Brunch
+          </button>
+          <button type="button" class="demo-chip" data-demo-concept="patisserie">
+            Pâtisserie
+          </button>
+        </div>
+
+        <span class="demo-section-label">Paleta de Cores (Luxo)</span>
+        <div class="demo-chip-row">
+          <button type="button" class="demo-chip is-active" data-demo-theme="noir">
+            Noir & Ouro
+          </button>
+          <button type="button" class="demo-chip" data-demo-theme="terra">
+            Terracota
+          </button>
+          <button type="button" class="demo-chip" data-demo-theme="creme">
+            Creme & Sálvia
+          </button>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-sm demo-copy-btn" id="demo-copy-url">
+          Copiar Link Personalizado p/ Cliente
+        </button>
+        <button
+          type="button"
+          class="chip-btn"
+          id="demo-reset"
+          style="width: 100%; margin-top: 0.45rem; text-align: center;"
+        >
+          Restaurar Padrão Croma
+        </button>
+      </div>
+
+      <button
+        type="button"
+        class="demo-toggle-btn"
+        id="demo-toggle-btn"
+        aria-expanded="false"
+        aria-controls="demo-panel"
+      >
+        <span>✦ Personalizar Demo p/ Cafeteria</span>
+      </button>
+    </aside>
+  </body>
+</html>
+

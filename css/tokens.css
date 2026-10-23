@@ -1,0 +1,111 @@
+/* ==========================================================================
+   TOKENS DE DESIGN & TEMAS
+   --------------------------------------------------------------------------
+   Três paletas prontas. Troque o tema em js/config.js (campo "theme"):
+   • noir  → espresso profundo, latão envelhecido e creme (padrão)
+   • terra → torra média, terracota quente e cobre
+   • creme → pergaminho claro, espresso escuro e ouro fosco
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 700;
+  src: url('../fonts/cormorant-garamond-latin-wght-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300 700;
+  src: url('../fonts/cormorant-garamond-latin-wght-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url('../fonts/manrope-latin-wght-normal.woff2') format('woff2');
+}
+
+:root,
+[data-theme='noir'] {
+  --bg: #0b0908;
+  --bg-elevated: #13100e;
+  --surface: #181310;
+  --surface-soft: #211a16;
+  --surface-glass: rgba(16, 12, 10, 0.78);
+  --text: #f4ece1;
+  --text-muted: #b9aa99;
+  --text-subtle: #857768;
+  --accent: #c89b63;
+  --accent-strong: #dfb57e;
+  --on-accent: #0b0908;
+  --accent-soft: rgba(200, 155, 99, 0.12);
+  --border: rgba(200, 155, 99, 0.16);
+  --border-strong: rgba(200, 155, 99, 0.42);
+  --success: #4ca97a;
+  --shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.85);
+  --hero-text: #f6efe5;
+  --hero-muted: #dcd0c1;
+  --hero-overlay: rgba(11, 9, 8, 0.9);
+  color-scheme: dark;
+}
+
+[data-theme='terra'] {
+  --bg: #120c09;
+  --bg-elevated: #1b120e;
+  --surface: #231712;
+  --surface-soft: #2e1f19;
+  --surface-glass: rgba(27, 18, 14, 0.82);
+  --text: #f7ede2;
+  --text-muted: #c8b29d;
+  --text-subtle: #927b67;
+  --accent: #d08152;
+  --accent-strong: #e8a173;
+  --on-accent: #140c08;
+  --accent-soft: rgba(208, 129, 82, 0.13);
+  --border: rgba(208, 129, 82, 0.18);
+  --border-strong: rgba(208, 129, 82, 0.48);
+  --hero-overlay: rgba(18, 12, 9, 0.9);
+  color-scheme: dark;
+}
+
+[data-theme='creme'] {
+  --bg: #f6f0e6;
+  --bg-elevated: #efe6d7;
+  --surface: #fffdf9;
+  --surface-soft: #ebe0cf;
+  --surface-glass: rgba(246, 240, 230, 0.88);
+  --text: #1c1512;
+  --text-muted: #5b4c42;
+  --text-subtle: #877568;
+  --accent: #9a6836;
+  --accent-strong: #7b5026;
+  --on-accent: #fbf7f0;
+  --accent-soft: rgba(154, 104, 54, 0.1);
+  --border: rgba(28, 21, 18, 0.12);
+  --border-strong: rgba(154, 104, 54, 0.45);
+  --shadow: 0 24px 50px -26px rgba(28, 21, 18, 0.28);
+  --hero-overlay: rgba(20, 14, 11, 0.86);
+  color-scheme: light;
+}
+
+:root {
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --container: 1240px;
+  --gutter: clamp(1.15rem, 4vw, 3rem);
+  --section-y: clamp(4.5rem, 10vw, 8rem);
+
+  --radius-sm: 4px;
+  --radius: 10px;
+  --radius-lg: 18px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --header-h: 76px;
+}
